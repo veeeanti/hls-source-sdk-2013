@@ -1,0 +1,17 @@
+﻿Compilación iniciada a las 24/12/2017 15:31:58.
+     1>Proyecto "C:\Users\Matias\Documents\Source SDK Base 2013\src\raytrace\raytrace.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\common /I..\public /I..\public\tier0 /I..\public\tier1 /I..\utils\common /ZI /nologo /W4 /WX /MP /Od /Oy- /D VPC /D RAD_TELEMETRY_DISABLED /D _HAS_ITERATOR_DEBUGGING=0 /D WIN32 /D _WIN32 /D _DEBUG /D DEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _ALLOW_RUNTIME_LIBRARY_MISMATCH /D _ALLOW_ITERATOR_DEBUG_LEVEL_MISMATCH /D _ALLOW_MSC_VER_MISMATCH /D _USING_V110_SDK71_ /D _MBCS /D COMPILER_MSVC32 /D COMPILER_MSVC32 /D COMPILER_MSVC /D _DLL_EXT=.dll /D LIBNAME=raytrace /D BINK_VIDEO /D AVI_VIDEO /D WMV_VIDEO /D DEV_BUILD /D FRAME_POINTER_OMISSION_DISABLED /D _EXTERNAL_DLL_EXT=.dll /D VPCGAMECAPS=VALVE /D "PROJECTDIR=C:\Users\Matias\Documents\Source SDK Base 2013\src\raytrace" /D _DLL_EXT=.dll /D VPCGAME=valve /D SOURCE1=1 /GF /Gm- /MTd /GS /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Debug\.\/" /Fd".\Debug\.\/vc120.pdb" /Gd /TP /wd4316 /analyze- /FC /errorReport:prompt  /Gw raytrace.cpp trace2.cpp trace3.cpp
+         raytrace.cpp
+         trace2.cpp
+         trace3.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\public\.\raytrace.lib" /NOLOGO  /ignore:4221 .\Debug\.\/raytrace.obj
+         .\Debug\.\/trace2.obj
+         .\Debug\.\/trace3.obj
+         raytrace.vcxproj -> C:\Users\Matias\Documents\Source SDK Base 2013\src\raytrace\..\lib\public\.\raytrace.lib
+     1>Compilación del proyecto terminada "C:\Users\Matias\Documents\Source SDK Base 2013\src\raytrace\raytrace.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:42.21
