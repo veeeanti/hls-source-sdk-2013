@@ -21,25 +21,21 @@
 		"$AdditionalProjectDependencies"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		"$SchemaPreIncludeFiles"
 		{
 			"type"	"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		"$AdditionalOutputFiles"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		"$GameOutputFile"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		"$InheritedProjectPropertySheets"
@@ -318,19 +314,16 @@
 		"$SymbolVisibility"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		"$GCC_ExtraCompilerFlags"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		"$GCC_ExtraCxxCompilerFlags"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		"$Detect64bitPortabilityIssues"
@@ -356,7 +349,6 @@
 		"$OptimizerLevel"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		// General
@@ -992,37 +984,31 @@
 		"$SystemLibraries"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		"$SystemFrameworks"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		"$LocalFrameworks"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		"$GCC_ExtraLinkerFlags"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		"$POSIX_RPaths"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		"$DisableLinkerDeadCodeElimination"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		"$UseUNICODEResponseFiles"
@@ -2064,14 +2050,12 @@
 		"$OrderOnlyFileDependencies"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		//exactly the same as $General->$AdditionalProjectDependencies except it can be attached to build tools
 		"$OrderOnlyProjectDependencies"
 		{
 			"type"				"string"
-			"IgnoreForOutput"	"1"
 		}
 
 		"$ExecuteAfter"

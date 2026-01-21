@@ -1,0 +1,20 @@
+// Blue Shift game configuration
+GameInfo
+{
+	game 		"HALF-LIFE: BLUE SHIFT"
+	title 		"HALF-LIFE: BLUE SHIFT"
+	gamedir 		"blueshift"
+	steamappid		25  // Half-Life 1 Steam App ID
+	type		singleplayer_only
+	nomodels 	1
+	nohimodel 	1
+	nocrosshair 	0
+	hidden_maps
+	{
+		"test_speakers" 1
+		"test_hardware" 1
+	}
+	nodegraph 0
+	SupportsDX8 1
+	GameData	"blueshift.fgd"
+}

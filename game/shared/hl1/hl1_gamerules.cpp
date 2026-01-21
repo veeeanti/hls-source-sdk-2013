@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: The Half-Life 1 game rules, such as the relationship tables and ammo
 //			damage cvars.
@@ -97,11 +97,11 @@ int	CHalfLife1::Damage_GetShowOnHud( void )
 	{
 		if ( IsMultiplayer() )
 		{
-			return "Half-Life 1: Deathmatch";
+			return "Half-Life: Blue Shift: Deathmatch";
 		}
 		else
 		{
-			return "Half-Life 1";
+			return "Half-Life: Blue Shift";
 		}
 	}
 

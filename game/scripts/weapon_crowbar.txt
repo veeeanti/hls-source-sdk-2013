@@ -1,0 +1,55 @@
+// Blue Shift Crowbar configuration
+WeaponData
+{
+	"printname"		"CROWBAR"
+	"viewmodel"		"models/v_crowbar.mdl"
+	"playermodel"		"models/p_crowbar.mdl"
+	"anim_prefix"		"crowbar"
+	"bucket"		"0"
+	"bucket_position"	"0"
+
+	"clip_size"		"-1"
+	"default_clip"		"-1"
+	"primary_ammo"		"None"
+	"secondary_ammo"	"None"
+
+	"weight"		"0"
+	"item_flags"		"0"
+
+	// Damage
+	"damage"		"25"
+
+	// Sounds
+	"SoundData"
+	{
+		"special1"		"Weapon_Crowbar.Single"
+		"melee_miss"		"Weapon_Crowbar.Miss"
+		"melee_hit"		"Weapon_Crowbar.Hit"
+		"melee_hitworld"	"Weapon_Crowbar.HitWorld"
+	}
+
+	// Texture data
+	"TextureData"
+	{
+		"weapon"
+		{
+			"font"		"WeaponIcons"
+			"character"	"c"
+		}
+		"weapon_s"
+		{
+			"font"		"WeaponIconsSelected"
+			"character"	"c"
+		}
+		"ammo"
+		{
+			"font"		"WeaponIcons"
+			"character"	" "
+		}
+		"crosshair"
+		{
+			"font"		"Crosshairs"
+			"character"	"Q"
+		}
+	}
+}

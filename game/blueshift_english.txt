@@ -1,0 +1,31 @@
+// Blue Shift English language file
+lang
+{
+Language "English"
+Tokens
+{
+	// Game title
+	"GameUI_Title"		"HALF-LIFE: BLUE SHIFT"
+
+	// Barney-specific strings
+	"Barney_Intro"		"Alright, let's get this done."
+	"Barney_Alert"		"What the hell was that?"
+	"Barney_Idle"		"This place gives me the creeps."
+	"Barney_Follow"		"Right behind you."
+	"Barney_Stop"		"Hold up."
+	"Barney_Yes"		"You got it."
+	"Barney_No"		"No way."
+	"Barney_Hello"		"Hey there."
+
+	// HUD elements
+	"HUD_SecurityGuard"	"Security Guard"
+	"HUD_Barney"		"Barney Calhoun"
+
+	// Menu items
+	"Menu_NewGame"		"New Game"
+	"Menu_LoadGame"		"Load Game"
+	"Menu_SaveGame"		"Save Game"
+	"Menu_Options"		"Options"
+	"Menu_Quit"		"Quit"
+}
+}
