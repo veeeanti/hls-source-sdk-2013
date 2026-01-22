@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -14,21 +14,24 @@
 
 void CHL1Item::Spawn( void )
 {
-	SetMoveType( MOVETYPE_FLYGRAVITY );
-	SetSolid( SOLID_BBOX );
-	AddSolidFlags( FSOLID_NOT_STANDABLE | FSOLID_TRIGGER );
-	CollisionProp()->UseTriggerBounds( true, 24.0f );
-	
-	SetCollisionGroup( COLLISION_GROUP_DEBRIS );
+	// Call base class spawn first to get all the CItem setup (physics, collision, etc.)
+	BaseClass::Spawn();
 
-	SetTouch( &CItem::ItemTouch );
+	// Now apply HL1 specific overrides
+	CBaseEntity* pBase = static_cast<CBaseEntity*>(this);
+	pBase->SetMoveType( MOVETYPE_FLYGRAVITY );
+	pBase->SetSolid( SOLID_BBOX );
+	pBase->AddSolidFlags( FSOLID_NOT_STANDABLE | FSOLID_TRIGGER );
+	pBase->CollisionProp()->UseTriggerBounds( true, 24.0f );
+	
+	pBase->SetCollisionGroup( COLLISION_GROUP_DEBRIS );
+
+	pBase->SetTouch( static_cast<void (CBaseEntity::*)(CBaseEntity *)>(&CItem::ItemTouch) );
 
 #ifdef HL1_DLL
     if ( g_pGameRules->IsMultiplayer() )
-        AddEffects( EF_NOSHADOW );
+        pBase->AddEffects( EF_NOSHADOW );
 #endif
-
-
 }
 
 
